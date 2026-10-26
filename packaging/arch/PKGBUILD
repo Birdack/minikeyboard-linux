@@ -11,8 +11,7 @@ makedepends=('cargo')
 options=('!lto' '!debug')
 install=minikeyboard.install
 source=("minikeyboard-linux-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-# Run `updpkgsums` once the v$pkgver tag is published.
-sha256sums=('SKIP')
+sha256sums=('f39637e89babbd4ca96fa8e7fae8f44eddac0aa2accbe7ed395b3bf061705c4b')
 
 prepare() {
     cd "minikeyboard-linux-$pkgver/src-tauri"
