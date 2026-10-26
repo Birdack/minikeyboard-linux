@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MINI KEYBOARD (preview)</title>
+  <link rel="stylesheet" href="../ui/styles.css">
+  <script src="mock.js"></script>
+  <script type="module" src="../ui/app.js"></script>
+</head>
+<body>
+  <!-- keep in sync with ui/index.html (body only) -->
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><img src="../ui/icon.svg" alt=""><span>MINI KEYBOARD</span></div>
+      <div class="device-pill" id="device"><span class="dot"></span><span class="name">…</span><span class="meta"></span></div>
+      <div class="spacer"></div>
+      <select class="select" id="model"></select>
+      <div class="sep"></div>
+      <div class="group">
+        <button class="btn icon ghost" id="btn-new"></button>
+        <button class="btn icon ghost" id="btn-open"></button>
+        <button class="btn icon ghost" id="btn-save"></button>
+      </div>
+      <div class="sep"></div>
+      <button class="btn" id="btn-read"></button>
+      <button class="btn primary" id="btn-write"></button>
+      <div class="sep"></div>
+      <select class="select lang" id="lang"></select>
+      <div class="progress" id="progress"></div>
+    </header>
+    <main class="main" id="main">
+      <section class="stage" id="stage"></section>
+      <aside class="inspector" id="inspector"></aside>
+    </main>
+  </div>
+  <div class="toasts" id="toasts"></div>
+  <div id="modal-root"></div>
+</body>
+</html>

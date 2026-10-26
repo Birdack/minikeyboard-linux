@@ -1,0 +1,1029 @@
+{
+  "keys": [
+    {
+      "code": 4,
+      "name": "a",
+      "dom": "KeyA"
+    },
+    {
+      "code": 5,
+      "name": "b",
+      "dom": "KeyB"
+    },
+    {
+      "code": 6,
+      "name": "c",
+      "dom": "KeyC"
+    },
+    {
+      "code": 7,
+      "name": "d",
+      "dom": "KeyD"
+    },
+    {
+      "code": 8,
+      "name": "e",
+      "dom": "KeyE"
+    },
+    {
+      "code": 9,
+      "name": "f",
+      "dom": "KeyF"
+    },
+    {
+      "code": 10,
+      "name": "g",
+      "dom": "KeyG"
+    },
+    {
+      "code": 11,
+      "name": "h",
+      "dom": "KeyH"
+    },
+    {
+      "code": 12,
+      "name": "i",
+      "dom": "KeyI"
+    },
+    {
+      "code": 13,
+      "name": "j",
+      "dom": "KeyJ"
+    },
+    {
+      "code": 14,
+      "name": "k",
+      "dom": "KeyK"
+    },
+    {
+      "code": 15,
+      "name": "l",
+      "dom": "KeyL"
+    },
+    {
+      "code": 16,
+      "name": "m",
+      "dom": "KeyM"
+    },
+    {
+      "code": 17,
+      "name": "n",
+      "dom": "KeyN"
+    },
+    {
+      "code": 18,
+      "name": "o",
+      "dom": "KeyO"
+    },
+    {
+      "code": 19,
+      "name": "p",
+      "dom": "KeyP"
+    },
+    {
+      "code": 20,
+      "name": "q",
+      "dom": "KeyQ"
+    },
+    {
+      "code": 21,
+      "name": "r",
+      "dom": "KeyR"
+    },
+    {
+      "code": 22,
+      "name": "s",
+      "dom": "KeyS"
+    },
+    {
+      "code": 23,
+      "name": "t",
+      "dom": "KeyT"
+    },
+    {
+      "code": 24,
+      "name": "u",
+      "dom": "KeyU"
+    },
+    {
+      "code": 25,
+      "name": "v",
+      "dom": "KeyV"
+    },
+    {
+      "code": 26,
+      "name": "w",
+      "dom": "KeyW"
+    },
+    {
+      "code": 27,
+      "name": "x",
+      "dom": "KeyX"
+    },
+    {
+      "code": 28,
+      "name": "y",
+      "dom": "KeyY"
+    },
+    {
+      "code": 29,
+      "name": "z",
+      "dom": "KeyZ"
+    },
+    {
+      "code": 30,
+      "name": "1",
+      "dom": "Digit1"
+    },
+    {
+      "code": 31,
+      "name": "2",
+      "dom": "Digit2"
+    },
+    {
+      "code": 32,
+      "name": "3",
+      "dom": "Digit3"
+    },
+    {
+      "code": 33,
+      "name": "4",
+      "dom": "Digit4"
+    },
+    {
+      "code": 34,
+      "name": "5",
+      "dom": "Digit5"
+    },
+    {
+      "code": 35,
+      "name": "6",
+      "dom": "Digit6"
+    },
+    {
+      "code": 36,
+      "name": "7",
+      "dom": "Digit7"
+    },
+    {
+      "code": 37,
+      "name": "8",
+      "dom": "Digit8"
+    },
+    {
+      "code": 38,
+      "name": "9",
+      "dom": "Digit9"
+    },
+    {
+      "code": 39,
+      "name": "0",
+      "dom": "Digit0"
+    },
+    {
+      "code": 40,
+      "name": "enter",
+      "dom": "Enter"
+    },
+    {
+      "code": 41,
+      "name": "escape",
+      "dom": "Escape"
+    },
+    {
+      "code": 42,
+      "name": "backspace",
+      "dom": "Backspace"
+    },
+    {
+      "code": 43,
+      "name": "tab",
+      "dom": "Tab"
+    },
+    {
+      "code": 44,
+      "name": "space",
+      "dom": "Space"
+    },
+    {
+      "code": 45,
+      "name": "minus",
+      "dom": "Minus"
+    },
+    {
+      "code": 46,
+      "name": "equal",
+      "dom": "Equal"
+    },
+    {
+      "code": 47,
+      "name": "leftbracket",
+      "dom": "BracketLeft"
+    },
+    {
+      "code": 48,
+      "name": "rightbracket",
+      "dom": "BracketRight"
+    },
+    {
+      "code": 49,
+      "name": "backslash",
+      "dom": "Backslash"
+    },
+    {
+      "code": 50,
+      "name": "nonushash",
+      "dom": "IntlHash"
+    },
+    {
+      "code": 51,
+      "name": "semicolon",
+      "dom": "Semicolon"
+    },
+    {
+      "code": 52,
+      "name": "quote",
+      "dom": "Quote"
+    },
+    {
+      "code": 53,
+      "name": "grave",
+      "dom": "Backquote"
+    },
+    {
+      "code": 54,
+      "name": "comma",
+      "dom": "Comma"
+    },
+    {
+      "code": 55,
+      "name": "dot",
+      "dom": "Period"
+    },
+    {
+      "code": 56,
+      "name": "slash",
+      "dom": "Slash"
+    },
+    {
+      "code": 57,
+      "name": "capslock",
+      "dom": "CapsLock"
+    },
+    {
+      "code": 58,
+      "name": "f1",
+      "dom": "F1"
+    },
+    {
+      "code": 59,
+      "name": "f2",
+      "dom": "F2"
+    },
+    {
+      "code": 60,
+      "name": "f3",
+      "dom": "F3"
+    },
+    {
+      "code": 61,
+      "name": "f4",
+      "dom": "F4"
+    },
+    {
+      "code": 62,
+      "name": "f5",
+      "dom": "F5"
+    },
+    {
+      "code": 63,
+      "name": "f6",
+      "dom": "F6"
+    },
+    {
+      "code": 64,
+      "name": "f7",
+      "dom": "F7"
+    },
+    {
+      "code": 65,
+      "name": "f8",
+      "dom": "F8"
+    },
+    {
+      "code": 66,
+      "name": "f9",
+      "dom": "F9"
+    },
+    {
+      "code": 67,
+      "name": "f10",
+      "dom": "F10"
+    },
+    {
+      "code": 68,
+      "name": "f11",
+      "dom": "F11"
+    },
+    {
+      "code": 69,
+      "name": "f12",
+      "dom": "F12"
+    },
+    {
+      "code": 70,
+      "name": "printscreen",
+      "dom": "PrintScreen"
+    },
+    {
+      "code": 71,
+      "name": "scrolllock",
+      "dom": "ScrollLock"
+    },
+    {
+      "code": 72,
+      "name": "pause",
+      "dom": "Pause"
+    },
+    {
+      "code": 73,
+      "name": "insert",
+      "dom": "Insert"
+    },
+    {
+      "code": 74,
+      "name": "home",
+      "dom": "Home"
+    },
+    {
+      "code": 75,
+      "name": "pageup",
+      "dom": "PageUp"
+    },
+    {
+      "code": 76,
+      "name": "delete",
+      "dom": "Delete"
+    },
+    {
+      "code": 77,
+      "name": "end",
+      "dom": "End"
+    },
+    {
+      "code": 78,
+      "name": "pagedown",
+      "dom": "PageDown"
+    },
+    {
+      "code": 79,
+      "name": "right",
+      "dom": "ArrowRight"
+    },
+    {
+      "code": 80,
+      "name": "left",
+      "dom": "ArrowLeft"
+    },
+    {
+      "code": 81,
+      "name": "down",
+      "dom": "ArrowDown"
+    },
+    {
+      "code": 82,
+      "name": "up",
+      "dom": "ArrowUp"
+    },
+    {
+      "code": 83,
+      "name": "numlock",
+      "dom": "NumLock"
+    },
+    {
+      "code": 84,
+      "name": "numpadslash",
+      "dom": "NumpadDivide"
+    },
+    {
+      "code": 85,
+      "name": "numpadasterisk",
+      "dom": "NumpadMultiply"
+    },
+    {
+      "code": 86,
+      "name": "numpadminus",
+      "dom": "NumpadSubtract"
+    },
+    {
+      "code": 87,
+      "name": "numpadplus",
+      "dom": "NumpadAdd"
+    },
+    {
+      "code": 88,
+      "name": "numpadenter",
+      "dom": "NumpadEnter"
+    },
+    {
+      "code": 89,
+      "name": "numpad1",
+      "dom": "Numpad1"
+    },
+    {
+      "code": 90,
+      "name": "numpad2",
+      "dom": "Numpad2"
+    },
+    {
+      "code": 91,
+      "name": "numpad3",
+      "dom": "Numpad3"
+    },
+    {
+      "code": 92,
+      "name": "numpad4",
+      "dom": "Numpad4"
+    },
+    {
+      "code": 93,
+      "name": "numpad5",
+      "dom": "Numpad5"
+    },
+    {
+      "code": 94,
+      "name": "numpad6",
+      "dom": "Numpad6"
+    },
+    {
+      "code": 95,
+      "name": "numpad7",
+      "dom": "Numpad7"
+    },
+    {
+      "code": 96,
+      "name": "numpad8",
+      "dom": "Numpad8"
+    },
+    {
+      "code": 97,
+      "name": "numpad9",
+      "dom": "Numpad9"
+    },
+    {
+      "code": 98,
+      "name": "numpad0",
+      "dom": "Numpad0"
+    },
+    {
+      "code": 99,
+      "name": "numpaddot",
+      "dom": "NumpadDecimal"
+    },
+    {
+      "code": 100,
+      "name": "nonusbackslash",
+      "dom": "IntlBackslash"
+    },
+    {
+      "code": 101,
+      "name": "application",
+      "dom": "ContextMenu"
+    },
+    {
+      "code": 102,
+      "name": "power",
+      "dom": "Power"
+    },
+    {
+      "code": 103,
+      "name": "numpadequal",
+      "dom": "NumpadEqual"
+    },
+    {
+      "code": 104,
+      "name": "f13",
+      "dom": "F13"
+    },
+    {
+      "code": 105,
+      "name": "f14",
+      "dom": "F14"
+    },
+    {
+      "code": 106,
+      "name": "f15",
+      "dom": "F15"
+    },
+    {
+      "code": 107,
+      "name": "f16",
+      "dom": "F16"
+    },
+    {
+      "code": 108,
+      "name": "f17",
+      "dom": "F17"
+    },
+    {
+      "code": 109,
+      "name": "f18",
+      "dom": "F18"
+    },
+    {
+      "code": 110,
+      "name": "f19",
+      "dom": "F19"
+    },
+    {
+      "code": 111,
+      "name": "f20",
+      "dom": "F20"
+    },
+    {
+      "code": 112,
+      "name": "f21",
+      "dom": "F21"
+    },
+    {
+      "code": 113,
+      "name": "f22",
+      "dom": "F22"
+    },
+    {
+      "code": 114,
+      "name": "f23",
+      "dom": "F23"
+    },
+    {
+      "code": 115,
+      "name": "f24",
+      "dom": "F24"
+    }
+  ],
+  "media": [
+    {
+      "code": 205,
+      "name": "play"
+    },
+    {
+      "code": 183,
+      "name": "stop"
+    },
+    {
+      "code": 182,
+      "name": "previous"
+    },
+    {
+      "code": 181,
+      "name": "next"
+    },
+    {
+      "code": 226,
+      "name": "mute"
+    },
+    {
+      "code": 234,
+      "name": "volumedown"
+    },
+    {
+      "code": 233,
+      "name": "volumeup"
+    },
+    {
+      "code": 112,
+      "name": "screenbrightnessdown"
+    },
+    {
+      "code": 111,
+      "name": "screenbrightnessup"
+    },
+    {
+      "code": 402,
+      "name": "calculator"
+    },
+    {
+      "code": 394,
+      "name": "mail"
+    },
+    {
+      "code": 404,
+      "name": "explorer"
+    },
+    {
+      "code": 414,
+      "name": "screenlock"
+    },
+    {
+      "code": 386,
+      "name": "favorites"
+    },
+    {
+      "code": 545,
+      "name": "search"
+    },
+    {
+      "code": 547,
+      "name": "webpagehome"
+    },
+    {
+      "code": 548,
+      "name": "webpageback"
+    },
+    {
+      "code": 549,
+      "name": "webpageforward"
+    },
+    {
+      "code": 551,
+      "name": "webpagerefresh"
+    }
+  ],
+  "modifiers": [
+    [
+      1,
+      "ctrl"
+    ],
+    [
+      2,
+      "shift"
+    ],
+    [
+      4,
+      "alt"
+    ],
+    [
+      8,
+      "win"
+    ],
+    [
+      16,
+      "rctrl"
+    ],
+    [
+      32,
+      "rshift"
+    ],
+    [
+      64,
+      "ralt"
+    ],
+    [
+      128,
+      "rwin"
+    ]
+  ],
+  "mouseButtons": [
+    [
+      1,
+      "click"
+    ],
+    [
+      2,
+      "rclick"
+    ],
+    [
+      4,
+      "mclick"
+    ]
+  ],
+  "layouts": [
+    {
+      "keys": 0,
+      "knobs": 1,
+      "kind": "knob_wheel",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          null,
+          21
+        ]
+      ]
+    },
+    {
+      "keys": 0,
+      "knobs": 2,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "keys": 0,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 1,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 2,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 3,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 3,
+      "knobs": 1,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ]
+      ]
+    },
+    {
+      "keys": 4,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 4,
+      "knobs": 1,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ]
+      ]
+    },
+    {
+      "keys": 4,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 5,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 6,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 6,
+      "knobs": 1,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ]
+      ]
+    },
+    {
+      "keys": 6,
+      "knobs": 2,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "keys": 9,
+      "knobs": 2,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "keys": 9,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 11,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 12,
+      "knobs": 2,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "keys": 12,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 12,
+      "knobs": 4,
+      "kind": "standard",
+      "groups": [
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 15,
+      "knobs": 3,
+      "kind": "standard",
+      "groups": [
+        [
+          16,
+          17,
+          18
+        ],
+        [
+          19,
+          20,
+          21
+        ],
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "keys": 16,
+      "knobs": 0,
+      "kind": "standard",
+      "groups": []
+    },
+    {
+      "keys": 21,
+      "knobs": 1,
+      "kind": "standard",
+      "groups": [
+        [
+          22,
+          23,
+          24
+        ]
+      ]
+    }
+  ],
+  "maxChords": 17,
+  "maxDelay": 6000,
+  "version": "0.1.0"
+}

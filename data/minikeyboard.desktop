@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=MINI KEYBOARD
+GenericName=Macropad configurator
+GenericName[it]=Configuratore macro-pad
+GenericName[de]=Makropad-Konfiguration
+GenericName[fr]=Configurateur de pavé macro
+GenericName[es]=Configurador de teclado de macros
+GenericName[pt]=Configurador de teclado de macros
+Comment=Program the keys, knobs and LEDs of MINI_KEYBOARD USB macropads
+Comment[it]=Programma tasti, manopole e LED dei macro-pad USB MINI_KEYBOARD
+Comment[de]=Tasten, Drehregler und LEDs von MINI_KEYBOARD-USB-Makropads programmieren
+Comment[fr]=Programmez les touches, molettes et LED des pavés macro USB MINI_KEYBOARD
+Comment[es]=Programa las teclas, botones giratorios y LED de los teclados de macros USB MINI_KEYBOARD
+Comment[pt]=Programe as teclas, botões giratórios e LEDs dos teclados de macros USB MINI_KEYBOARD
+Exec=minikeyboard
+Icon=minikeyboard
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=macropad;keyboard;tastiera;macro;
+StartupWMClass=minikeyboard

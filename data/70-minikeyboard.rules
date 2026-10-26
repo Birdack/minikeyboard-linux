@@ -1,0 +1,4 @@
+# MINI_KEYBOARD macropads: let the logged-in user configure them via hidraw.
+# VID/PID list from the vendor's MINI_KEYBOARD software (Widget::timeoutSlot).
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1189", ATTRS{idProduct}=="8830|8831|8832|8833|8840|8842|8850|8851", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="514c", ATTRS{idProduct}=="8830|8831|8832|8833|8840|8842|8850|8851", TAG+="uaccess"

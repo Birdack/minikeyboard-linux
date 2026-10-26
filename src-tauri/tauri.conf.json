@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "MINI KEYBOARD",
+  "version": "0.1.0",
+  "identifier": "it.minikeyboard.configurator",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "MINI KEYBOARD",
+        "width": 1320,
+        "height": 820,
+        "minWidth": 980,
+        "minHeight": 640,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "deb",
+      "rpm",
+      "appimage"
+    ],
+    "category": "Utility",
+    "shortDescription": "Configure MINI_KEYBOARD USB macro pads on Linux",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.png"
+    ],
+    "linux": {
+      "deb": {
+        "files": {
+          "/usr/lib/udev/rules.d/70-minikeyboard.rules": "../data/70-minikeyboard.rules"
+        }
+      },
+      "rpm": {
+        "files": {
+          "/usr/lib/udev/rules.d/70-minikeyboard.rules": "../data/70-minikeyboard.rules"
+        }
+      }
+    },
+    "publisher": "birdack",
+    "copyright": "Copyright (c) 2026 birdack. BSD-3-Clause.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/birdack/minikeyboard-linux",
+    "longDescription": "Program cheap USB macro pads and mini keyboards with knobs (USB 1189/514C:88xx, MINI_KEYBOARD software) on Linux: key combos, macros with delays, media keys, mouse actions and RGB lighting on 3 layers."
+  }
+}

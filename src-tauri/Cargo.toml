@@ -1,0 +1,35 @@
+[package]
+name = "minikeyboard"
+version = "0.1.0"
+description = "Linux configurator for MINI_KEYBOARD USB macro pads: keys, knobs, macros, media keys, mouse and RGB"
+authors = ["birdack"]
+license = "BSD-3-Clause"
+repository = "https://github.com/birdack/minikeyboard-linux"
+homepage = "https://github.com/birdack/minikeyboard-linux"
+readme = "../README.md"
+keywords = ["macropad", "keyboard", "hid", "linux", "tauri"]
+categories = ["hardware-support", "gui"]
+edition = "2021"
+rust-version = "1.77"
+
+[build-dependencies]
+tauri-build = { version = "2.7", features = [] }
+
+[dependencies]
+tauri = { version = "2.12", features = [] }
+tauri-plugin-dialog = "2.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+libc = "0.2"
+log = "0.4"
+env_logger = "0.11"
+
+[features]
+default = ["custom-protocol"]
+# serve the files from ../ui embedded in the binary (no dev server)
+custom-protocol = ["tauri/custom-protocol"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
