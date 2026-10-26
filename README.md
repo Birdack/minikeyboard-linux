@@ -110,6 +110,19 @@ cd minikeyboard-linux
 **MINI KEYBOARD** to your application menu and offers to install the udev rule (asks before using
 `sudo`). `./install.sh --remove` uninstalls.
 
+### Arch Linux package
+
+Build a pacman package from your checkout and install it (app, menu entry, icons and udev rule):
+
+```sh
+./packaging/arch/install.sh            # build + sudo pacman -U
+./packaging/arch/install.sh --build    # only write the .pkg.tar.zst into packaging/arch/
+./packaging/arch/install.sh --remove   # sudo pacman -Rns minikeyboard
+```
+
+[`packaging/arch/PKGBUILD`](packaging/arch/PKGBUILD) builds the tagged release from GitHub and can be
+used as is with `makepkg -si` or for the AUR.
+
 ### Debian / Ubuntu package
 
 Build a `.deb` that installs the app, the menu entry and the udev rule system-wide:
@@ -131,7 +144,7 @@ sudo install -m 644 data/70-minikeyboard.rules /etc/udev/rules.d/
 sudo udevadm control --reload && sudo udevadm trigger
 ```
 
-Unplug and replug the pad afterwards. The `.deb` package installs this rule for you.
+Unplug and replug the pad afterwards. The Arch and `.deb` packages install this rule for you.
 
 ## Usage
 

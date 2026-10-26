@@ -1,0 +1,3 @@
+post_install() {
+    echo "==> If the macro pad is already plugged in, unplug and replug it so the udev rule applies."
+}

@@ -12,6 +12,7 @@ node_modules/
 *.deb
 *.rpm
 *.AppImage
+*.pkg.tar.zst
 
 # OS / editor noise
 .DS_Store

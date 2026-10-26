@@ -1,0 +1,41 @@
+# Maintainer: birdack
+pkgname=minikeyboard
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Configurator for MINI_KEYBOARD USB macro pads: keys, knobs, macros, media keys, mouse and RGB"
+arch=('x86_64' 'aarch64')
+url="https://github.com/birdack/minikeyboard-linux"
+license=('BSD-3-Clause')
+depends=('webkit2gtk-4.1' 'gtk3' 'hicolor-icon-theme')
+makedepends=('cargo')
+options=('!lto' '!debug')
+install=minikeyboard.install
+source=("minikeyboard-linux-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
+# Run `updpkgsums` once the v$pkgver tag is published.
+sha256sums=('SKIP')
+
+prepare() {
+    cd "minikeyboard-linux-$pkgver/src-tauri"
+    export RUSTUP_TOOLCHAIN=stable
+    cargo fetch --locked --target "$(rustc --print host-tuple)"
+}
+
+build() {
+    cd "minikeyboard-linux-$pkgver/src-tauri"
+    export RUSTUP_TOOLCHAIN=stable
+    export CARGO_TARGET_DIR=target
+    cargo build --frozen --release
+}
+
+package() {
+    cd "minikeyboard-linux-$pkgver"
+    install -Dm755 src-tauri/target/release/minikeyboard -t "$pkgdir/usr/bin"
+    install -Dm644 data/minikeyboard.desktop -t "$pkgdir/usr/share/applications"
+    install -Dm644 data/icon.svg "$pkgdir/usr/share/icons/hicolor/scalable/apps/minikeyboard.svg"
+    install -Dm644 src-tauri/icons/32x32.png "$pkgdir/usr/share/icons/hicolor/32x32/apps/minikeyboard.png"
+    install -Dm644 src-tauri/icons/128x128.png "$pkgdir/usr/share/icons/hicolor/128x128/apps/minikeyboard.png"
+    install -Dm644 src-tauri/icons/128x128@2x.png "$pkgdir/usr/share/icons/hicolor/256x256/apps/minikeyboard.png"
+    install -Dm644 data/70-minikeyboard.rules -t "$pkgdir/usr/lib/udev/rules.d"
+    install -Dm644 README.md docs/PROTOCOL.md -t "$pkgdir/usr/share/doc/$pkgname"
+    install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+}
